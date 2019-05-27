@@ -1,0 +1,228 @@
+.test
+{
+    border: 1px solid black;
+}
+
+body
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+nav
+{
+    width: 100%;
+    height: auto;
+    box-shadow: inset 5em 1em gold;
+    
+    
+}
+
+#wrapLogo
+{
+   width: 100%;
+   padding-bottom: 25px;
+}
+
+#logo
+{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+      height: auto;
+      min-height: 180px;
+      max-height: 220px;
+}
+
+#name
+{
+    text-align: center;
+    font-style: italic;
+    font-weight: 650;
+    font-family: monospace;
+    letter-spacing: 1em;
+    text-shadow: 3px 3px 6px grey, 0 0 3em black, 0 0 0.6em black;
+}
+
+#cite
+{
+    text-align: center;
+    font-style: italic;
+    font-family: serif;
+   
+}
+
+a
+{
+    
+    text-decoration: none;
+    text-align: center;
+    font-family: cursive;
+    font-style: italic;
+    color: hotpink;
+}
+
+a:hover
+{
+    font-size: 18px;   
+}
+#srcLink
+{
+    text-decoration: none;
+    font-family: cursive;
+    font-style: italic;
+    color: hotpink;
+}
+
+.infos
+{
+    font-family: serif;
+    line-height: 35px;
+    padding: 30px;
+}
+
+#lang
+{
+    position: absolute;
+    left: 90%;
+    top: 0%;
+    margin-top: 35px;
+    margin-left: 35px;
+}
+
+#langBtn
+{
+    border: none;
+    background: none;
+}
+
+#wrapContent
+{
+    display: flex;
+    height: auto;
+    min-height: 750px;
+}
+
+#left
+{
+    width: 10%;
+    min-width: 10%;
+    max-width: 10%;
+    
+}
+#main
+{
+    width: 80%;
+    max-width: 80%;
+    min-width: 80%;
+
+}
+
+#wrapPartner
+{
+    display: flex;
+    padding: 15px;
+    margin-bottom: 65px;
+}
+.listPartner
+{
+    width: 40%;
+    text-align: center;
+}
+
+fieldset
+{
+    text-align: center;
+    padding: 8px;
+    border: 5px dotted;
+    border-bottom-color: goldenrod;
+    border-top-color: hotpink;
+    border-left-color: goldenrod;
+    border-right-color: hotpink;
+    border-radius: 8px;
+    box-shadow: 2px 2px grey;
+    margin-right: 10px;
+    font-family: cursive;
+    
+    
+}
+
+li
+{
+    list-style-type: "\1F44D";
+    padding: 6px;
+}
+
+#smile
+{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 90px;
+      min-width: 90px;
+      max-width: 90px;
+      height: auto;
+      min-height: 90px;
+      max-height: 90px;
+}
+
+#smile:hover
+{
+    transform: rotate(180deg);
+}
+
+#mediaPlayer
+{
+    width: 80%;
+    margin-left: 10%;
+    height: 720px;
+}
+
+#right
+{
+    width: 10%;
+   
+}
+
+footer
+{
+    background: purple;
+    border-top: 2px double antiquewhite;
+    height: auto;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    opacity: 0.7;
+    
+   
+}
+
+
+
+footer:hoover
+{
+    opacity: 1;
+}
+
+#footerTxt
+{
+    font-style: italic;
+    text-shadow: 1px 1px 2px grey, 0 0 1.5em antiquewhite, 0 0 0.3em antiquewhite;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    
+    
+}
+
+h3
+{
+    font-family: serif;
+    font-style: italic;
+    text-shadow: 1px 1px 2px grey, 0 0 1.5em black, 0 0 0.3em black;
+    margin-top: 35;
+    margin-bottom: 35px;
+}
